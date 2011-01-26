@@ -4,10 +4,20 @@ set up linode
 	16GB disk space
 pointed dns at pr1v.ca - live now
 updated VM
-added to backup script on faludi.hypatia.ca TODO: change to hostname when DNS is live
+added to backup script on faludi.hypatia.ca
+changed to hostname when DNS went live
 installed git; set up repo on github
+fussed around with web.py
+fought with git
+got url-shortener (django) working instead
+  currently using sqlite3
+  running on django 1.2.4
+  available at https://github.com/hypatia/url-shortener/tree/pr1v
+put updated schedule up here: https://github.com/hypatia/pr1v/wiki/Schedule
 
 
 TODO:
 
 DoS protection
+look into caching
+make logging dates + hit counts optional through a settings.py variable
