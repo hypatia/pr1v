@@ -1,0 +1,13 @@
+set up linode
+	32 bit ubuntu 10.04
+	512mb RAM
+	16GB disk space
+pointed dns at pr1v.ca - live now
+updated VM
+added to backup script on faludi.hypatia.ca TODO: change to hostname when DNS is live
+installed git; set up repo on github
+
+
+TODO:
+
+DoS protection
