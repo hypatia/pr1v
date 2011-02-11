@@ -15,9 +15,21 @@ got url-shortener (django) working instead
   available at https://github.com/hypatia/url-shortener/tree/pr1v
 put updated schedule up here: https://github.com/hypatia/pr1v/wiki/Schedule
 
+Feb 2:
+
+* installed tor
+* setup exit enclave as per instructions here: https://trac.torproject.org/projects/tor/wiki/TheOnionRouter/ExitEnclave
+
 
 TODO:
 
 DoS protection
 look into caching
 make logging dates + hit counts optional through a settings.py variable
+
+ideas from Dan Crowley's ShmooCon talk:
+
+url throttling from IP address
+parasitic storage -- should be detectable?  see also: throttling
+filter out XSS artifacts --> look at how NoScript does it
+password-protected short urls
